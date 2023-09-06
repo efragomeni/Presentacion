@@ -1,0 +1,41 @@
+/*Sección Title*/
+section.title {
+  padding: 64px;
+}
+.title__div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 368px;
+}
+.title__container {
+  display: flex;
+  flex-direction: column;
+}
+.title__bio {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 61px;
+}
+.title__subsection {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.title__redes {
+  display: flex;
+  justify-content: space-between;
+
+  width: 550px;
+
+  font-weight: 500;
+  font-size: 16px;
+}
+.title__perfil{
+  width: 360px;
+  margin-top: 0;
+}
+
+

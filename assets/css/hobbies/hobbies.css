@@ -1,0 +1,26 @@
+/*Sección Hobbies*/
+
+section.hobbies {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 36px;
+}
+
+.hobbies__title {
+  font-weight: 700;
+  font-size: 32px;
+  align-self: center;
+}
+.hobbies__line {
+  display: flex;
+  justify-content: space-around;
+  /* padding: 32px 152px 88px; */
+}
+.hobbies__box {
+  width: 176px;
+  height: 174px;
+  background-color: var(--color-de-boxes);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

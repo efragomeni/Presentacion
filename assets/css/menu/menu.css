@@ -1,0 +1,38 @@
+/*Sección Menu*/
+
+section.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 10px;
+}
+.menu__header {
+  display: flex;
+  align-items: center;
+  /* width: 150px; */
+}
+.menu__header img {
+  width: 24px;
+  height: 24px;
+}
+.menu__title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 16px;
+}
+.menu__nav {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+}
+.menu__list {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+.menu__list__item__contato {
+  font-weight: 800;
+}

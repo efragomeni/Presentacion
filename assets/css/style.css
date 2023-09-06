@@ -1,0 +1,86 @@
+/*CSS Reset / Normalize*/
+:root {
+  /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+  /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+  --color-de-fondo: #f5f5f5;
+  
+  --color-de-boxes: #ffffff; 
+  
+  --color-de-seccion:#EAF2FD;
+  
+  --color-de-letras-1:#ffffff;
+
+  --color-de-letras-2:#464646;
+
+  --color-de-boton-1:#2a7ae4;
+  
+  --color-acento:#2a7ae4;
+  
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--color-de-fondo);
+  font-family: "Raleway";
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--cor-de-link);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+/*Tablet*/
+@media (min-width: 768px) {
+  /* Menú */
+
+  /*title*/
+
+  /*Skills*/
+
+  /*Hobbies*/
+
+  /*Formación Académica*/
+
+  /*Experiencia Profesional*/
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+  /*Menu*/
+
+  /*Titulo*/
+
+  /*Sección sobre mi*/
+
+  /*Skills*/
+
+  /*Hobbies*/
+
+  /*Formación Académica*/
+
+  /*Experiencia Profesional*/
+
+  /*Contacto*/
+
+  /*Footer*/
+}

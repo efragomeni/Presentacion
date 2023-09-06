@@ -1,0 +1,116 @@
+/*Contacto*/
+
+section.contacto {
+    background: var(--color-de-seccion);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+  .contacto__contacto {
+    display: flex;
+  }
+  .contacto__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 36px;
+    height: 593px;
+  }
+  
+  .contacto__title {
+    color: var(--color-de-letras-2);
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .contacto__subtext {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-de-letras-2);
+  }
+  
+  .contacto__form {
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  /*Form: */
+  .contenedor__input{
+    width: 100%;
+  }
+  /*Reposo*/
+  .contenedor__input label {
+    display: block;
+    
+    border-bottom: 2px solid #a2a2a263;
+    background-color: white;
+    padding: 8px 10px;
+    padding-right: 0;
+    position: relative;
+    transition: 0.25s;
+  }
+  .contenedor__input label span {
+    color: #a2a2a2;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    transition: 0.25s;
+  }
+  .contenedor__input label input {
+    display: block;
+    border: none;
+    width: 100%;
+    background: transparent;
+    outline: none;
+  }
+  
+  .contenedor__input label span,
+  .contenedor__input label input {
+    font-size: 16px;
+  }
+  
+  /*Focus*/
+  .contenedor__input label.focus {
+    border-color: var(--color-acento);
+  }
+  .contenedor__input label span.focus {
+    color:var(--color-acento);
+  }
+  
+  /*Top*/
+  .contenedor__input label span.top {
+    left: 2px;
+    top: -14px;
+    font-size: 12px;
+    background: transparent;
+    padding: 0 5px;
+  }
+  
+  
+  /*TextArea*/
+  .contacto__textarea{
+    font-size:16px ;
+    font-family: "Raleway";
+    padding: 8px;
+    border: none;
+    color: var(--color-de-letras-2);
+  }
+  .contacto__textarea::placeholder{
+    color: #a2a2a2;
+  }
+  .contacto__textarea:focus{
+    outline: 0;
+    border: 2px solid var(--color-acento);
+  
+  }
+  
+  .contacto__boton{
+    width: 144px;
+    background: var(--color-de-boton-1);
+    height: 51px;
+    color: var(--color-de-letras-1);
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+  }
